@@ -1,0 +1,48 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\joaog\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files\PowerShell\7;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin;C:\Users\joaog\AppData\Local\Programs\Hyper;C:\Program Files (x86)\dotnet\;C:\Program Files (x86)\Vim\vim90;C:\Program Files\apache-maven-3.8.6\bin;C:\Program Files\CMake\bin;C:\Arch;C:\ProgramData\chocolatey\bin;C:\Users\joaog\AppData\Local\Android\Sdk\tools\bin;C:\Users\joaog\AppData\Local\Android\Sdk\tools;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\dotnet\;C:\Program Files\PowerShell\7\;C:\Program Files (x86)\VSCodium\bin;C:\Users\joaog\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Users\joaog\AppData\Local\pnpm;C:\Users\joaog\AppData\Local\activestate\cache\bin;C:\Users\joaog\AppData\Local\ActiveState\StateTool\release\bin;C:\Users\joaog\scoop\shims;C:\Users\joaog\.cargo\bin;C:\Users\joaog\AppData\Local\Microsoft\WindowsApps;C:\Users\joaog\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\joaog\AppData\Local\Programs\Hyper\resources\bin;C:\Users\joaog\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\joaog\.dotnet\tools;C:\Users\joaog\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\joaog\www\javascript-kafka\cart-service\node_modules\prisma\engines\8fde8fef4033376662cad983758335009d522acb\query_engine-windows.dll.node'
+
+npm manifest: 
+  {
+    "name": "javascript-kafka",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "tsx watch src/server.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@prisma/client": "^4.11.0",
+      "@types/cors": "^2.8.13",
+      "@types/express": "^4.17.17",
+      "cors": "^2.8.5",
+      "express": "^4.18.2",
+      "kafkajs": "^2.2.4",
+      "prisma": "^4.11.0",
+      "tsx": "^3.12.6",
+      "typescript": "^5.0.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
