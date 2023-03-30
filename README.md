@@ -1,0 +1,1 @@
+two simple services (or something like that), made just made for my learning in kafka broker messages
